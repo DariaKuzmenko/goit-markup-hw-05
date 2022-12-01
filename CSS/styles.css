@@ -604,6 +604,8 @@ body {
   color: var(--color-uptitle);
 }
 
+/*----------------------------------MODAL---------------------------------*/
+
 .backdrop{
   position: fixed;
   top:0;
@@ -632,6 +634,7 @@ body {
 
 .modal-clouse{
   position: absolute;
+  display: flex;
   right: 10px;
   top:10px;
   width: 30px;
@@ -639,7 +642,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: transparent;
