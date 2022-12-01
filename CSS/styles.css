@@ -633,6 +633,7 @@ body {
 }
 
 .modal-clouse{
+  padding: 0;
   position: absolute;
   display: flex;
   right: 10px;
